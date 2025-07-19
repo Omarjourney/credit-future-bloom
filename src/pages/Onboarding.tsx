@@ -216,7 +216,15 @@ const Onboarding = () => {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-hero flex items-center justify-center p-4">
+    <div className="relative min-h-screen bg-gradient-hero flex items-center justify-center p-4 animate-fade">
+      <Button
+        variant="outline"
+        size="sm"
+        className="absolute top-4 left-4"
+        onClick={() => navigate('/')}
+      >
+        Home
+      </Button>
       <div className="w-full max-w-2xl">
         {/* Progress Bar */}
         <div className="mb-8">

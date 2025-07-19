@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
+import { useNavigate } from 'react-router-dom';
 import { CreditScoreDial } from '@/components/CreditScoreDial';
 import { 
   Calculator, 
@@ -17,6 +18,7 @@ const Tools = () => {
   const [simulatorScore, setSimulatorScore] = useState(678);
   const [utilization, setUtilization] = useState(25);
   const [onTimePayments, setOnTimePayments] = useState(100);
+  const navigate = useNavigate();
 
   const calculateProjectedScore = () => {
     let projected = simulatorScore;
@@ -66,7 +68,10 @@ const Tools = () => {
   ];
 
   return (
-    <div className="min-h-screen bg-background p-4">
+    <div className="min-h-screen bg-background p-4 animate-fade">
+      <div className="flex justify-end mb-4">
+        <Button variant="ghost" size="sm" onClick={() => navigate('/')}>Home</Button>
+      </div>
       <div className="max-w-7xl mx-auto space-y-8">
         {/* Header */}
         <div className="text-center mb-8">

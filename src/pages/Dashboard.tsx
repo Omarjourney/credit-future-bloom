@@ -28,7 +28,7 @@ const Dashboard = () => {
   ];
 
   return (
-    <div className="min-h-screen bg-background p-4">
+    <div className="min-h-screen bg-background p-4 animate-fade">
       {/* Header */}
       <header className="flex items-center justify-between mb-8">
         <div className="flex items-center gap-4">
@@ -36,6 +36,9 @@ const Dashboard = () => {
             CreditRise
           </button>
           <nav className="hidden md:flex items-center gap-4 ml-8">
+            <Button variant="ghost" size="sm" onClick={() => navigate('/')}">
+              Home
+            </Button>
             <Button variant="ghost" size="sm" onClick={() => navigate('/dashboard')}>
               Dashboard
             </Button>
