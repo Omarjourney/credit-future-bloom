@@ -28,7 +28,7 @@ const Dashboard = () => {
   ];
 
   return (
-    <div className="min-h-screen bg-background p-4">
+    <div className="min-h-screen bg-background p-4 animate-fade">
       {/* Header */}
       <header className="flex items-center justify-between mb-8">
         <div className="flex items-center gap-4">
