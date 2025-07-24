@@ -36,7 +36,7 @@ const Dashboard = () => {
             CreditRise
           </button>
           <nav className="hidden md:flex items-center gap-4 ml-8">
-            <Button variant="ghost" size="sm" onClick={() => navigate('/')}">
+            <Button variant="ghost" size="sm" onClick={() => navigate('/')}> 
               Home
             </Button>
             <Button variant="ghost" size="sm" onClick={() => navigate('/dashboard')}>
