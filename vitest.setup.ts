@@ -7,5 +7,5 @@ class ResizeObserver {
   disconnect() {}
 }
 
-// @ts-ignore
+// @ts-expect-error - polyfill for test environment
 global.ResizeObserver = global.ResizeObserver || ResizeObserver;
