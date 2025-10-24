@@ -105,7 +105,7 @@ const Onboarding = () => {
                   />
                 </div>
                 <div>
-                  <label className="block text-sm font-medium mb-2">Social Security Number</label>
+                  <label className="block text-sm font-medium mb-2">Phone Number</label>
                   <input 
                     type="password" 
                     className="w-full p-3 border rounded-lg focus:ring-2 focus:ring-primary focus:border-transparent" 
