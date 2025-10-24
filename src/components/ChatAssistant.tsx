@@ -18,7 +18,7 @@ const ChatAssistant: React.FC = () => {
 
     // Placeholder for AI API call
     // In a real app, you would POST to your backend which communicates with an LLM
-    const reply = 'This is a placeholder AI response.';
+    const reply = 'Here is a placeholder recommendation based on your message: "' + trimmed + '". Explanation: This suggestion is based on your input to provide transparency.';
     const assistantMessage: Message = { from: 'assistant', text: reply };
     setMessages(prev => [...prev, assistantMessage]);
   };
