@@ -71,3 +71,14 @@ Yes, you can!
 To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
 
 Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+
+## AI integration roadmap  
+To make this credit repair project more engaging and valuable for users, consider integrating AI capabilities:  
+
+- **Credit‑report analysis**: Use an AI model to parse uploaded credit reports, highlight errors and provide personalized suggestions for improvement.  
+- **Credit‑score simulator**: Implement a simulator that estimates how financial actions (e.g., paying down debt, opening new accounts) may affect users' scores, explaining the reasoning behind changes.  
+- **Dispute‑letter generator**: Provide an automated tool that drafts dispute letters to contest inaccuracies, ensuring compliance with credit‑repair regulations.  
+- **Personalized financial coaching**: Offer a chat‑based AI assistant that gives budgeting tips, debt‑repayment strategies and negotiation advice tailored to each user.  
+- **Continuous monitoring & alerts**: Monitor credit changes and notify users about important events such as new inquiries or missed payments.  
+
+These AI features will improve usability and help users understand and improve their credit more effectively.
