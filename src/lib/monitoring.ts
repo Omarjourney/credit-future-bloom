@@ -21,7 +21,7 @@ export class CreditMonitor {
     this.subscribers.forEach(cb => cb(event));
   }
 
-  async monitor(report: any) {
+  async monitor(report: unknown) {
     // Placeholder logic to detect changes in credit data.
     // In a real implementation, you would compare the current report with previous state
     // and emit events when differences are detected.
